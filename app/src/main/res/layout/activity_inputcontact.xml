@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".inputcontact">
+    tools:context=".Inputcontact">
 
     <ImageView
         android:id="@+id/ivAvatar2"
@@ -68,7 +68,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btAddContact"
+        android:id="@+id/tvAddContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"

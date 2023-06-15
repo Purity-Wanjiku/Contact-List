@@ -14,9 +14,8 @@ class MainActivity : AppCompatActivity() {
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val addContactButton = findViewById<Button>(R.id.FABAddContact)
-        addContactButton.setOnClickListener {
-            val intent = Intent(this, inputcontact::class.java)
+       binding.tvAddContact.setOnClickListener {
+            val intent = Intent(this, Inputcontact::class.java)
             startActivity(intent)
         }
 

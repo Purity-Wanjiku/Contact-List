@@ -24,7 +24,7 @@
         tools:listitem="@layout/contact_list" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/FABAddContact"
+        android:id="@+id/tvAddContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
