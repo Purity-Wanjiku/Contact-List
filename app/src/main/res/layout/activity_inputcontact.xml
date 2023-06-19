@@ -46,7 +46,7 @@
             android:id="@+id/etemail"
             android:layout_height="wrap_content"
             android:hint="Email"
-            />
+            tools:ignore="HardcodedText" />
     </com.google.android.material.textfield.TextInputLayout>
 
 

@@ -16,11 +16,9 @@
         android:theme="@style/Theme.Contacts"
         tools:targetApi="31">
         <activity
-            android:name=".inputContacts"
+            android:name=".Inputcontact"
             android:exported="false" />
-        <activity
-            android:name=".inputcontact"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

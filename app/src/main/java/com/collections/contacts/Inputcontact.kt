@@ -14,10 +14,10 @@ class Inputcontact: AppCompatActivity() {
     lateinit var binding: ActivityInputcontactBinding
 
 
-    class Inputcontact : AppCompatActivity() {
-        lateinit var binding: ActivityInputcontactBinding
+
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
+            binding = ActivityInputcontactBinding.inflate(layoutInflater)
             setContentView(binding.root)
 
             binding.tvAddContact.setOnClickListener {
@@ -128,4 +128,4 @@ class Inputcontact: AppCompatActivity() {
             })
         }
     }
-}
+
